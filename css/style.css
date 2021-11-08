@@ -1,0 +1,144 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    line-height: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*Header*/
+  
+  .header {
+    font-family: "Inter", sans-serif;
+    max-width: 1250px;
+    margin: 0 auto 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 15px;
+  }
+  
+  .header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation__list {
+    display: flex;
+    list-style: none;
+    margin: 0 34px;
+    padding: 0;
+  }
+  
+  .navigation__item {
+    margin-left: 34px;
+  }
+  
+  .navigation__item:first-child {
+    margin-left: 0px;
+  }
+  
+  .navigation__link {
+    color: #b8becd;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navigation__link:hover {
+    color: #202336;
+  }
+  
+  .account {
+    display: flex;
+  }
+  
+  .login {
+    color: #fb8f1d;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #fb8f1d;
+    background: none;
+    width: 132px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login:hover {
+    color: #fff;
+    background: #fb8f1d;
+  }
+  
+  .btn__main {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fb8f1d;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn__main:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(251, 143, 29, 0.2),
+      0 16px 20px rgba(251, 143, 29, 0.4);
+  }
+  
+  .registeration {
+    width: 132px;
+    height: 44px;
+    margin-left: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .registeration:hover {
+    border: 1px solid #fb8f1d;
+    color: #fb8f1d;
+    background: none;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .account__btn {
+    background: transparent;
+    border: none;
+    padding: 2px 0 0 0;
+    line-height: 0;
+    display: none;
+  }
+  
+  .header__burger {
+    width: 40px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+  
+  .header__burger::before,
+  .header__burger::after,
+  .header__burger div {
+    content: "";
+    display: block;
+    border-top: 4px solid #fb8f1d;
+    width: 100%;
+    border-radius: 8px;
+  }
