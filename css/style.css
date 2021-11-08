@@ -142,3 +142,394 @@ body {
     width: 100%;
     border-radius: 8px;
   }
+
+  /*Heading*/
+
+.heading {
+  max-width: 1330px;
+  margin: 0 auto 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.heading__inner {
+  margin-right: 200px;
+}
+
+.heading__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #202336;
+  margin: 0 0 74px;
+}
+
+.heading__description {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #202336;
+  margin: 0 0 33px;
+}
+
+.heading__description p {
+  margin: 0;
+}
+
+.heading__btn {
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+}
+
+.heading__image {
+  max-width: 687px;
+  flex-basis: 53%;
+  flex-shrink: 0;
+}
+
+/*Unit*/
+
+.unit {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unit__image {
+  max-width: 659px;
+  flex-basis: 54%;
+  flex-shrink: 0;
+}
+
+.unit__inner {
+  margin: 0 45px 0 100px;
+}
+
+.title__common {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000;
+}
+
+.unit__title {
+  margin-bottom: 30px;
+}
+
+.unit__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  margin: 0 0 33px;
+}
+
+.unit__description p {
+  margin: 0;
+}
+
+.unit__btn {
+  width: 164px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*Destinations*/
+
+.destinations {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto 200px;
+}
+
+.title__pluslink {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 56px;
+}
+
+.link__viewall {
+  display: flex;
+  align-items: center;
+}
+
+.link__viewall a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fb8f1d;
+}
+
+.link__viewall::after {
+  content: "";
+  display: flex;
+  width: 7px;
+  height: 11px;
+  background-image: url(../images/arrow.svg);
+  background-repeat: no-repeat;
+  margin-left: 11px;
+}
+
+.destinations__cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -12.5px;
+}
+
+.destinations__item {
+  position: relative;
+  flex-basis: calc(25% - 25px);
+  margin: 0 12.5px 25px;
+}
+
+.destinations__whiteblock {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 120px;
+  padding: 11px 22px 0 0;
+  border-top-right-radius: 8px;
+}
+
+.destinations__subtitle {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #042521;
+}
+
+.destinations__subtitle p {
+  margin: 0;
+}
+
+.destinations__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #80918e;
+}
+
+.destinations__text p {
+  margin: 0;
+}
+
+.destinations__link-after {
+  display: none;
+  justify-content: center;
+  margin: 0 auto;
+  width: 180px;
+  height: 52px;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+
+/*Unit reverse*/
+
+.unit--reverse {
+  max-width: 1160px;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.unit--reverse::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  transform: rotate(10deg);
+  background-image: url(../images/plus_unitreverse.png);
+  position: absolute;
+  top: 37px;
+  right: -32px;
+}
+
+.unit__image--reverse {
+  max-width: 599px;
+  flex-basis: 53%;
+}
+
+.unit__inner--reverse {
+  margin: 0 100px 0 0;
+}
+
+.unit__title--reverse {
+  margin-bottom: 20px;
+}
+
+.unit__btn--reverse {
+  width: 164px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*Reviews*/
+
+.reviews {
+  max-width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__inner {
+  max-width: 480px;
+}
+
+.reviews__title {
+  margin: 0 0 145px;
+}
+
+.reviews__raiting {
+  margin: 0 0 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviews__item {
+  margin: 0 16px 0 0;
+}
+
+.reviews__item:last-child {
+  margin-right: 0;
+}
+
+.reviews__image {
+  max-width: 384px;
+  flex-shrink: 0;
+  margin-left: 50px;
+  flex-basis: 38%;
+  position: relative;
+}
+
+.reviews__image::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../images/plus.png);
+  position: absolute;
+  bottom: -10px;
+  left: -13px;
+  transform: rotate(9deg);
+}
+
+.reviews__image::after {
+  content: "";
+  width: 42px;
+  height: 42px;
+  display: block;
+  background-image: url(../images/round.png);
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  z-index: -1;
+}
+
+.reviews__description {
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.reviews__description p {
+  margin: 0;
+}
+
+.reviews__subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.reviews__subtitle p {
+  margin: 0;
+}
+
+.reviews__text {
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.reviews__text p {
+  margin: 0;
+}
+
+/*Trends*/
+
+.trends {
+  max-width: 1150px;
+  margin: 0 auto 150px;
+  padding: 0 15px;
+}
+
+.trends__cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 -12.5px;
+}
+
+.trends__item {
+  max-width: 261px;
+  flex-basis: calc(25% - 25px);
+  margin: 0 12.5px 25px;
+}
+
+.trends__image {
+  margin-bottom: 13px;
+  max-width: 261px;
+}
+
+.trends__subtitle {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.trends__subtitle p {
+  margin: 0;
+}
+
+.trends__text {
+  font-size: 15px;
+  line-height: 26px;
+  color: #7d7987;
+  margin-bottom: 23px;
+}
+
+.trends__text p {
+  margin: 0;
+}
+
+.trends__rev a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fb8f1d;
+  text-decoration: none;
+}
